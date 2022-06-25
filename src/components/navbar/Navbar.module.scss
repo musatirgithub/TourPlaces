@@ -5,14 +5,18 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    flex-wrap: wrap;
+    font-family: 'Amatic SC', cursive;
+    font-size: 1.5rem;
     
     li{
         padding: 1.5rem 1rem;
         padding-bottom: 1.5rem;
         &:hover{
             background-color: #AFE0F8;
+            color: #171B1F;
             cursor: pointer;
         }
     }
 }
+

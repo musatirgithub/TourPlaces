@@ -1,10 +1,12 @@
 @import './reset';
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hubballi&display=swap');
 
 .cards{
     display: flex;
     flex-wrap: wrap;
-    gap: 2rem;
     justify-content: space-evenly;
+    gap: 2rem;
     background: linear-gradient(180deg, rgba(175,224,248,1) 0%, rgba(250,239,234,1) 100%);
-    padding: 0 3rem 3rem;
+    padding: 0 auto 3rem;
 }
