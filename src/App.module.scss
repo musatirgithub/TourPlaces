@@ -1,0 +1,10 @@
+@import './reset';
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: space-evenly;
+    background: linear-gradient(180deg, rgba(175,224,248,1) 0%, rgba(250,239,234,1) 100%);
+    padding: 0 3rem 3rem;
+}

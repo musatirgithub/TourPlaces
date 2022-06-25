@@ -1,0 +1,18 @@
+.navbar-container{
+    color: white;
+    list-style-type: none;
+    background-color: #171B1F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+    li{
+        padding: 1.5rem 1rem;
+        padding-bottom: 1.5rem;
+        &:hover{
+            background-color: #AFE0F8;
+            cursor: pointer;
+        }
+    }
+}
